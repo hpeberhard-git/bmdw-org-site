@@ -44,7 +44,10 @@ permalink: /
 
   <p>
     Please send your message and (optional) photo via the form below.
+    You can submit your message and photo without a Google account.
+
     Je kunt je bericht en (optionele) foto via het onderstaande formulier insturen.
+    Je kunt je bericht en foto insturen zonder een Google-account.
   </p>
 
   <p>
