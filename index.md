@@ -35,19 +35,17 @@ permalink: /
     You may write in English or Dutch. If you like, you can also share a photo
     that we may include alongside your message on this page.
   </p>
-
-  <p>
-    We nodigen je van harte uit om je herinneringen, verhalen en gedachten over Jack te delen.
-    Je mag in het Engels of in het Nederlands schrijven. Als je wilt, kun je ook een foto delen
-    die we – indien mogelijk – samen met je bericht op deze pagina plaatsen.
-  </p>
-
   <p>
     You can submit your message without a Google account.  
     If you would like to include a photo, you may email it to us and we will
     add it to the memorial page together with your message.
   </p>
 
+  <p>
+    We nodigen je van harte uit om je herinneringen, verhalen en gedachten over Jack te delen.
+    Je mag in het Engels of in het Nederlands schrijven. Als je wilt, kun je ook een foto delen
+    die we – indien mogelijk – samen met je bericht op deze pagina plaatsen.
+  </p>
   <p>
     Je kunt je bericht insturen zonder Google-account.  
     Als je een foto wilt toevoegen, kun je die per e-mail sturen; we plaatsen
