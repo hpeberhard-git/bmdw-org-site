@@ -43,11 +43,13 @@ permalink: /
   </p>
 
   <p>
-    Please send your message and (optional) photo via the form below.
-    You can submit your message and photo without a Google account.
+    You can submit your message without a Google account.  
+    If you would like to include a photo, you may email it to us and we will
+    add it to the memorial page together with your message.
 
-    Je kunt je bericht en (optionele) foto via het onderstaande formulier insturen.
-    Je kunt je bericht en foto insturen zonder een Google-account.
+    Je kunt je bericht insturen zonder Google-account.  
+    Als je een foto wilt toevoegen, kun je die per e-mail sturen; we plaatsen
+    de foto dan samen met je bericht op de herdenkingspagina.
   </p>
 
   <p>
