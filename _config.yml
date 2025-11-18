@@ -1,0 +1,10 @@
+title: "bmdw.org"
+description: "In memory of Jack"
+baseurl: ""
+url: "https://bmdw.org"
+markdown: kramdown
+theme: null
+collections:
+  memories:
+    output: true
+    permalink: /memories/:name/

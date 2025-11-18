@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<article class="memory">
+  <header class="memory-header">
+    <p class="memory-meta">
+      {% if page.name %}
+        <strong>{{ page.name }}</strong>
+        {% if page.date %} – {{ page.date | date: "%-d %B %Y" }}{% endif %}
+      {% elsif page.date %}
+        {{ page.date | date: "%-d %B %Y" }}
+      {% endif %}
+    </p>
+  </header>
+
+  {% if page.photo %}
+  <figure class="memory-photo">
+    <img src="{{ page.photo | relative_url }}"
+         alt="{{ page.photo_alt | default: 'Memory photo' | escape }}">
+    {% if page.photo_caption %}
+    <figcaption>{{ page.photo_caption }}</figcaption>
+    {% endif %}
+  </figure>
+  {% endif %}
+
+  <div class="memory-body">
+    {{ content }}
+  </div>
+</article>

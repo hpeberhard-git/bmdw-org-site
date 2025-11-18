@@ -1,0 +1,182 @@
+/* Grundlayout */
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  margin: 0;
+  background: #f6f2ec; /* warmes Creme */
+  color: #27313a;      /* gedecktes Dunkelgrau */
+}
+
+.wrapper {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.site-header,
+.site-footer {
+  background: #faf7f2;
+  border-bottom: 1px solid #e1d9cd;
+}
+
+.site-footer {
+  border-top: 1px solid #e1d9cd;
+  border-bottom: none;
+  margin-top: 2rem;
+}
+
+/* Header */
+
+.header-inner {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #3f5747; /* sanftes Salbeigrün */
+}
+
+.site-subtitle {
+  margin: 0.2rem 0 0;
+  font-size: 0.9rem;
+  color: #7b858c;
+}
+
+/* Inhalt */
+
+.site-content {
+  margin-top: 1.5rem;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+  color: #35414a;
+}
+
+h2 {
+  margin-top: 1.5rem;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* Intro & Memory-Liste */
+
+.memory-intro {
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.memory-list {
+  margin-top: 2rem;
+}
+
+.memory-card {
+  background: #ffffff;
+  border-radius: 0.75rem;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.2rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+
+.memory-meta {
+  font-size: 0.9rem;
+  color: #7b858c;
+  margin-bottom: 0.5rem;
+}
+
+.memory-body p {
+  margin: 0.25rem 0;
+}
+
+/* Fotos in Erinnerungen */
+
+.memory-photo {
+  margin: 0 0 0.75rem 0;
+}
+
+.memory-photo img {
+  max-width: 100%;
+  border-radius: 0.75rem;
+  display: block;
+}
+
+.memory-photo figcaption {
+  font-size: 0.85rem;
+  color: #7b858c;
+  margin-top: 0.25rem;
+}
+
+/* Formular/Call-to-Action */
+
+.memory-share {
+  margin-top: 2rem;
+  padding: 1rem 1.25rem;
+  border-radius: 0.75rem;
+  background: #f0ebe3;
+  border: 1px solid #e1d9cd;
+}
+
+.memory-share p {
+  margin: 0.4rem 0;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 0.75rem;
+  padding: 0.55rem 1.2rem;
+  border-radius: 999px;
+  background: #6d8c76;   /* Salbeigrün */
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.btn:hover {
+  background: #5d7967;
+}
+
+/* Eingabefelder – falls du ein eigenes Formular einsetzt */
+
+.form-fields {
+  margin-top: 1rem;
+}
+
+.form-field {
+  margin-bottom: 0.8rem;
+}
+
+.form-field label {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+}
+
+.form-field small {
+  display: block;
+  font-size: 0.8rem;
+  color: #7b858c;
+}
+
+.form-field input[type="text"],
+.form-field input[type="email"],
+.form-field textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.45rem 0.6rem;
+  border-radius: 0.5rem;
+  border: 1px solid #d3c9bc;
+  background: #fdfaf6;
+  font-size: 0.95rem;
+}
+
+.form-field textarea {
+  min-height: 6rem;
+  resize: vertical;
+}
